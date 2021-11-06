@@ -1,5 +1,5 @@
-# !Discord Plugini - Sourcemod
-!dc ve !discord yazıldığında otomatik Discord adresini yazan hazır altyapılı plugin.
+# Hazır Template Plugin
+Komut yazdığınızda saydan cevap verir. !dc, !ts3 gibi pluginlerde kullanılabilir.
 
 
 CS:S'da test edildi ve çalışmaktadır. İyi oyunlar..
