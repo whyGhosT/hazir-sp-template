@@ -15,13 +15,13 @@ public Plugin:myinfo =
 
 public OnPluginStart()
 {
-	CreateConVar("sm_dc_version", PLUGIN_VERSION, "Template Plugin Version", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_NOTIFY|FCVAR_DONTRECORD);
+	CreateConVar("sm_test_version", PLUGIN_VERSION, "Template Plugin Version", FCVAR_PLUGIN|FCVAR_SPONLY|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 	
-	RegConsoleCmd("sm_dc", Yazkomutukole);
+	RegConsoleCmd("sm_test", Yazkomutukole);
 }
 
 public Action:Yazkomutukole(client, args)
 { 
-	PrintToChat( client, "\x03[\x01wg\x03]\x01 Discord Adresimiz : discord.gg/xxxxxxx" );
+	PrintToChat( client, "\x03[\x01wg\x03]\x01 Calisiyor!" );
 	return Plugin_Handled;
 }
